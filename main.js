@@ -12,8 +12,10 @@ if (resultado >= 7) {
    else { 
    alert("Por favor ingresar solo números")
    }}
-while(isNaN(resultado), nota1 ===,nota2===){
+while(isNaN(resultado), "nota1" === "nota2"){
 
+
+   
 }
 function resultado (){
 alert("nota1"+"nota2") 
@@ -21,3 +23,33 @@ return resultado
 }
 
 
+
+let alumno="juan"
+let materia="lengua"
+let nota=7
+
+const alumno1= {alumno:"juan", materia: "lengua", nota:7
+}
+console.log(alumno1.alumno)
+console.log(alumno1.materia)
+console.log(alumno1.nota)
+ 
+
+
+
+const materias = [{ id: 1, materia: "lengua" },
+                  { id: 2, materia: "matematicas"},
+                  { id: 3, materia: "ingles"}];
+
+for (const materia of materia) {
+   console.log(materia.id);
+   console.log(materia.materia)
+}
+
+
+
+const final= [ 5,8,10,25,15 ];
+const res= final.reduce( (acc,item ) =>{
+   return acc= acc+item;
+ }); 
+console.log(res)
